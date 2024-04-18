@@ -1,0 +1,28 @@
+# Compiled Python files
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# GraphQL
+/graphql
+
+# Apollo Client
+/.cache
+/.apollo
+/.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

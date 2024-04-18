@@ -1,0 +1,25 @@
+{
+  "name": "front_end",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.11",
+    "@vue/apollo-composable": "^4.0.2",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}
